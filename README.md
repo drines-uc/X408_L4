@@ -102,3 +102,20 @@ For VM2 ..
 We need to disable port forwarding
 Enable private network
 cleanup the bootscript
+
+## Random stuff ...
+
+vagrant global-status
+
+```
+config.vm.hostname = "mydevmachine"
+config.vm.define :"mydevmachine" do |t|
+end
+
+config.vm.provider :virtualbox do |vb|
+vb.name = "mydevmachine"
+done
+
+
+
+```
