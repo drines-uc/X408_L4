@@ -31,7 +31,7 @@ Lets conserve resources on our host machine. Lets turn this machine off.
 vagrant halt
 ```
 or
-``
+```
 vagrant suspend
 ```
 Suspending the virtual machine will stop it and save its current running state.
